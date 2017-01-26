@@ -2,10 +2,34 @@ body {
   background-color: black;
   text-align: center;
   color: white;
+  font-family: Verdana;
+}
+
+body h1{
+  font-size: 50px;
 
 }
 
-body video {
-   width : 320px;
-   height: auto;
+body h6, .comingSoon h6{
+  font-size: 16px;
+  color: Aquamarine;
+}
+
+body a {
+
+  color: Aquamarine;
+}
+
+.travelGuide h2, .comingSoon h2 {
+  font-size: 42px;
+  font-weight: 300;
+}
+
+.travelGuide p{
+  font-size: 21px;
+  color: grey;
+}
+
+.copyright {
+  text-align: right;
 }
