@@ -1,0 +1,103 @@
+html{
+  font-size: 18px;
+  font-family: Roboto;
+
+}
+
+body{
+
+  margin: 0 auto;
+
+}
+
+.top-container {
+  background-image: url("../../resources/images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 80%;
+  height: 31rem;
+  width: auto;
+  position: relative;
+
+}
+
+.secret-heading{
+  background-color: black;
+  padding: .66rem;
+  width: 100%;
+  display: inline-block;
+
+}
+
+.secret-container, .footer-container, .arrival_insert  {
+
+  width: 960px;
+  margin: 0 auto;
+
+}
+
+.secret-heading img{
+  height: 1.5rem;
+  width: auto;
+  padding-right: 0.5rem;
+  padding-left: 1rem;
+  display: inline;
+
+
+}
+
+.secret-heading p {
+  color:white;
+  font-size: 1rem;
+  padding: .66rem 0;
+  display:inline-block;
+
+}
+
+
+.secret-footer {
+
+  background-color: firebrick;
+  padding: .66rem;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  color:white;
+
+}
+.arrival {
+margin: 0;
+}
+
+.arrival_insert{
+  width : 20rem;
+  margin-top: 9rem;
+  background-color: black;
+  color:white;
+
+}
+
+
+.footer-container {
+  display: inline-flex;
+
+    align-content: space-between;
+
+}
+
+.footer-container ul {
+  display:table;
+}
+
+.footer-container li{
+  padding: 0.75rem 0;
+  margin-right: 40px;
+  font-size: 1.5rem;
+  display: inline;
+}
+
+.footer-container a, a:hover{
+   color: white;
+   text-decoration:none;
+}
