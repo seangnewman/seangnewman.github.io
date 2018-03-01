@@ -1,63 +1,88 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Random Quote Machine</title>
-  <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link type="text/css" rel="stylesheet" href="./resources/css/styles.css">
-</head>
-<body>
-    <main>
-
-        <h1>Ramdom Quote Machine</h1>
-    <article>
-        <!-- Display image and quote button -->
-        <section id="leftPane">
-
-
-       <div class="carousel">
-         <div id="imageContainer" class="iceCube">
-         </div>
-         <div id="imageContainer" class="barack">
-         </div>
-
-         <div id="imageContainer" class="kate">
-         </div>
-         <div id="imageContainer" class="ali">
-         </div>
-         <div id="imageContainer" class="neil">
-         </div>
-         <div id="imageContainer" class="john">
-         </div>
-         <div id="imageContainer" class="albert">
-         </div>
-         <div id="imageContainer" class="cicely">
-         </div>
-         <div id="imageContainer" class="sydney">
-         </div>
-         <div id="imageContainer" class="lincoln">
-         </div>
-       </div>
-         <button id="quoteButton"><em>Get Quote</em></button>
-
-        </section>
-
-
-        <!-- Display image and twitter button button -->
-        <section id="rightPane">
-          <div id="quoteContainer">
-            <div id="quote"></div>
-            <div id="author"> </div>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" type= "text/css" href="./assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type= "text/css" href="./assets/css/style.css">
+  </head>
+  <body>
+    <main class="clearfix">
+      <section id="headings">
+        <header>
+          <div id="nameHighlight">
+            <h1>Sean Newman</h1>
           </div>
-          <button id="twitterButton"><i class="fa fa-twitter fa-2x"></i></button>
-        </section>
-      </article>
+        </header>
+        <nav>
+          <ul id="siteNavigation">
+            <li><a href="./index.html"><button id="about">About</button></a></li>
+            <li><a href="./portfolio.html"><button id="portfolio">Portfolio</button></a></li>
+            <li><a href="./contact.html"><button id="contact">Contact</button></a></li>
+          </ul>
+        </nav>
+      </section>  <!-- End of Heading Section -->
+ 
+      <section id="aboutMe" >
+        <div id="aboutMeContainer ">
+          <header>
+            <h2>About Me</h2>
+          </header>
+          <div id="aboutMeContent">
+            <div id="imageContainer">
+            </div>
+            <p>
+            My name is Sean Newman and I am a student here at the Univeristy of Arizona Bootcamp.  I am married and will celebrate our 30th anniversery in May of this year.  I have been blessed
+            with two wonderful daughters. My eldest is currently a sophomore at Harvey Mudd College and my youngest is currently a freshman in High School.  
+            </p>
+            <p>
+            As my children have become more independent I no longer have to chaparone and chauffeur across the southwest for soccer matches and dance practices.  Over the past two years I have been using the 
+            available time to research different technologies and become aware of different opportunities.
+            </p>
+            <p>
+            I am currently a Programmer Analyst at credit union, prior to that I programmed for a mortgage company and a very large bank. I believe when I first became interested I felt that it would be a simple as learning a new language and that being a programmer 
+            would ease the transition.  But looking at web and mobile technologies is a pradigm shift.  In my experience implementing new technologies has been similar to steering a aircraft carrier.  Change occurs eventually.  Mobil/Web technologies 
+            are implemented almost overnight.  Five years ago few people were familiar with Node, two years ago React emerged.  The pace at which the adoption has taken place is extradinary.  This seems to be 
+            repeating with VOIP.    
+            </p>
+            <p>
+            I have picked up a lot on my own, I feel comfortable with a number of the subject we will learn as a group.  From this experience I am hoping to fill in the gaps I have developed from learning on my own, and also to become
+            a better programmer overall.  I can attest that learning never stops in this field.  Looking forward to what comes next.
+            </p>
+          </div>
+        </div>
+      </section>
+      
+      <aside>
+        <div id="connectWithMeContainer">
+          <h3>Connect with Me</h3>
+          <div id="socialMediaContainer">
+            <div id="smContainer">
+              <a href="https://github.com/seangnewman" target="_blank">
+                <img src="./assets/images/github.png" alt="github">
+              </a>
+            </div>
+            <div id="smContainer">
+              <a href="https://www.linkedin.com/in/sean-newman-0a78803b/" target="_blank">                    
+                <img src="./assets/images/linkedin.png" alt="LinkedIn">
+              </a>
+            </div>
+            <div id="smContainer">
+              <a href="https://stackoverflow.com/users/9173182/sean" target="_blank">                 
+                <img src="./assets/images/stackoverflow.png" alt="StackOverflow">
+               </a>
+            </div>
+         </div>
+        </div> 
+      </aside>
     </main>
-
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-  <script type="text/javascript" src="./resources/js/scripts.js"></script>
-</body>
+    <section id="footerSection">
+      <footer>
+        <span id="copyTag">Copyright &copy; 2018 Sean Newman</span> 
+      </footer>
+    </section>
+  </body>
 </html>
